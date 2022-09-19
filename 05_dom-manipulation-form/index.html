@@ -1,0 +1,33 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>DOM Manipulation Forms</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./app.css">
+</head>
+<body>
+  <form class="form">
+    <header>
+      <h1>Logo Creator</h1>
+    </header>
+    <div class="form-group">
+      <input class="form-input" type="text" placeholder="Brand Name" value="">
+    </div>
+    <div class="form-group">
+      <input type="color" id="favcolor" name="favcolor" value="#ff0000">
+    </div>
+    <div class="form-group">
+      <input type="range" min="12" max="54" />
+    </div>
+    <button class="form-button" type="submit">Create Logo</button>
+  </form>
+  <script src="./app.js"></script>
+</body>
+</html>
