@@ -13,21 +13,28 @@
   <link rel="stylesheet" href="./app.css">
 </head>
 <body>
-  <form class="form">
+  <form id="logoForm" class="form">
     <header>
       <h1>Logo Creator</h1>
     </header>
     <div class="form-group">
-      <input class="form-input" type="text" placeholder="Brand Name" value="">
+      <label for="brand-name">Brand Name:</label>
+      <br/>
+      <input id="brand-name" class="form-input" type="text" placeholder="Brand Name" name="brand-name" value="">
     </div>
     <div class="form-group">
-      <input type="color" id="favcolor" name="favcolor" value="#ff0000">
+      <label for="brand-color">Brand Color:</label>
+      <br/>
+      <input id="brand-color" type="color" name="brand-color" value="#ff0000">
     </div>
     <div class="form-group">
-      <input type="range" min="12" max="54" />
+      <label for="font-size">Font size:</label>
+      <br/>
+      <input id="font-size" type="range" name="font-size" min="12" max="202" />
     </div>
     <button class="form-button" type="submit">Create Logo</button>
   </form>
+  <section id="results"></section>
   <script src="./app.js"></script>
 </body>
 </html>
