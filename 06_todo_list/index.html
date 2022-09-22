@@ -20,30 +20,29 @@
         <h1><span>Finito</span> to-do list</h1>
       </div>
     </header>
+    <!-- Add Item -->
     <section class="addItem">
       <div class="addItem_inner">
-        <form action="" class="addItem_form">
-          <input class="addItem_input" type="text" placeholder="Add To-do" />
+        <form id="addItemForm" class="addItem_form">
+          <input class="addItem_input" type="text" placeholder="Add a task" value="" />
           <button class="">Add</button>
         </form>
       </div>
     </section>
+    <!-- Todo List -->
     <section class="todo">
       <div class="todo_inner">
-        <ul class="todo_list">
+        <ul id="todoList" class="todo_list">
           <li class="todo_item">
             <input type="checkbox" />
-            Finish todo list exersice
-            <button>
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="-3 -2 24 24" width="24" fill="currentColor">
-                <path d="M12 2h5a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V3a1 1 0 0 1 1-1h5V1a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v1zm3.8 6l-.613 9.2a3 3 0 0 1-2.993 2.8H5.826a3 3 0 0 1-2.993-2.796L2.205 8H15.8zM7 9a1 1 0 0 0-1 1v7a1 1 0 0 0 2 0v-7a1 1 0 0 0-1-1zm4 0a1 1 0 0 0-1 1v7a1 1 0 0 0 2 0v-7a1 1 0 0 0-1-1z"></path>
-              </svg>
-            </button>
+            <span>Lorem ipsum delgar modorra</span>
+            <button>&#10005;</button>
           </li>
-          <li class="todo_item">Consume daily vegies</li>
-          <li class="todo_item">Go fishing with buddies</li>
-          <li class="todo_item">Read Crime and Punishment</li>
-          <li class="todo_item">Read Js fact of the day</li>
+          <li class="todo_item">
+            <input type="checkbox" />
+            <span>Ajiote dela tured tre qwinched re bala dicanti</span>
+            <button type="submit">&#10005;</button>
+          </li>
         </ul>
       </div>
     </section>
