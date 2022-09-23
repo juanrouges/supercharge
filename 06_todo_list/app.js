@@ -6,6 +6,25 @@ console.log('Connected ...');
 const addItemForm = document.querySelector('#addItemForm');
 const todoList = document.querySelector('#todoList');
 
+let array = [
+  {
+    completed: false,
+    task: 'Lorem ipsum dirono'
+  },
+  {
+    completed: true,
+    task: 'Romulo de la casarena ilinois'
+  }
+];
+
+localStorage.setItem('todo', JSON.stringify(array));
+
+let todo = JSON.parse(localStorage.getItem('todo'));
+
+for (const index of todo) {
+  console.log(index.task);
+}
+
 // Form Submit Add New 
 addItemForm.addEventListener('submit', function(event) {
   event.preventDefault();
@@ -23,6 +42,10 @@ addItemForm.addEventListener('submit', function(event) {
   todoItem.prepend(checkboxItem);
   todoList.append(todoItem);
   target.querySelector('input').value = '';
+
+  let omega = {completed: false, task: 'My latino ass'};
+  
+  localStorage.setItem('todo', JSON.stringify(omega));
 });
 
 // List event listeners (done and remove)
