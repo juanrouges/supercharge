@@ -1,0 +1,81 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Meme generator | Memerise</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Poppins:wght@100;400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="app.css">
+</head>
+<body>  
+  <header class="header">
+    <div class="header_inner">
+      <h1>memerise</h1>
+    </div>
+  </header>
+
+  <main>    
+    <section class="hero">
+      <div class="hero_inner">
+        <form class="form">
+          <h2 class="form_title">Meme generator</h2>
+          <div class="form_group">
+            <label for="">Image link</label>
+            <input type="text" class="form_input" placeholder="http://someurl.com/your-image">
+          </div>
+          <div class="form_group">
+            <label for="">Text Top</label>
+            <input type="text" class="form_input" placeholder="Text Top">
+          </div>
+          <div class="form_group">
+            <label for="">Text Bottom</label>
+            <input type="text" class="form_input" placeholder="Text Bottom">
+          </div>
+          <button class="button_primary">Submit</button>
+        </form>
+      </div>
+    </section>
+    <section class="results">
+      <div class="results_inner">
+        <div class="results_empty" style="display:none;">
+          No memes had been generated
+        </div>
+        <div class="results_area">
+
+          <div class="memerise">
+            <div class="memerise_close">
+              <button class="button_label">&#10005; Delete</button>
+            </div>
+            <div class="memerise_top">Lorem Ipsum De La Corensa</div>
+            <div class="memerise_bottom">Robrti condinu erli erl patti</div>
+            <img src="https://imgflip.com/s/meme/But-Thats-None-Of-My-Business.jpg" alt=""  />
+          </div>
+
+          <div class="memerise">
+            <div class="memerise_close">
+              <button class="button_label">&#10005; Delete</button>
+            </div>
+            <div class="memerise_top">Lorem Ipsum De La Corensa</div>
+            <div class="memerise_bottom">Robrti condinu erli erl patti</div>
+            <img src="https://imgflip.com/s/meme/But-Thats-None-Of-My-Business.jpg" alt=""  />
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer_inner">
+      <span>Made by Juan Rojas. Springboard, Septemder 2022.</span>
+    </div>
+  </footer> 
+  
+  <script src="app.js"></script>
+</body>
+</html>
