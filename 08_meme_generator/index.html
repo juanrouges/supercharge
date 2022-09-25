@@ -25,46 +25,37 @@
         <form class="form">
           <h2 class="form_title">Meme generator</h2>
           <div class="form_group">
-            <label for="">Image link</label>
-            <input type="text" class="form_input" placeholder="http://someurl.com/your-image">
+            <label for="img_url">Image link</label>
+            <input type="text" name="img_url" class="form_input" placeholder="http://someurl.com/your-image">
           </div>
           <div class="form_group">
-            <label for="">Text Top</label>
-            <input type="text" class="form_input" placeholder="Text Top">
+            <label for="text_top">Text Top</label>
+            <input type="text" name="text_top" class="form_input" placeholder="Text Top">
           </div>
           <div class="form_group">
-            <label for="">Text Bottom</label>
-            <input type="text" class="form_input" placeholder="Text Bottom">
+            <label for="text_bottom">Text Bottom</label>
+            <input type="text" name="text_bottom" class="form_input" placeholder="Text Bottom">
           </div>
-          <button class="button_primary">Submit</button>
+          <button class="button_primary" type="submit">Submit</button>
         </form>
       </div>
     </section>
     <section class="results">
       <div class="results_inner">
-        <div class="results_empty" style="display:none;">
+        <div id="resultsEmpty" class="results_empty">
           No memes had been generated
         </div>
-        <div class="results_area">
-
-          <div class="memerise">
+        <div id="resultsArea" class="results_area">
+          <!-- START -->
+          <!-- <div class="memerise">
             <div class="memerise_close">
               <button class="button_label">&#10005; Delete</button>
             </div>
-            <div class="memerise_top">Lorem Ipsum De La Corensa</div>
-            <div class="memerise_bottom">Robrti condinu erli erl patti</div>
+            <div class="memerise_top">When I am nervous</div>
+            <div class="memerise_bottom">I like to drink tea</div>
             <img src="https://imgflip.com/s/meme/But-Thats-None-Of-My-Business.jpg" alt=""  />
-          </div>
-
-          <div class="memerise">
-            <div class="memerise_close">
-              <button class="button_label">&#10005; Delete</button>
-            </div>
-            <div class="memerise_top">Lorem Ipsum De La Corensa</div>
-            <div class="memerise_bottom">Robrti condinu erli erl patti</div>
-            <img src="https://imgflip.com/s/meme/But-Thats-None-Of-My-Business.jpg" alt=""  />
-          </div>
-
+          </div> -->
+          <!-- END -->
         </div>
       </div>
     </section>

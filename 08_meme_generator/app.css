@@ -43,6 +43,9 @@ input {
   color: #4d5b7c;
   border-radius: 6px;
 }
+.hidden {
+  display: none !important;
+}
 
 /* Buttons */
 .button_primary {
