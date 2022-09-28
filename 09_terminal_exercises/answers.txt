@@ -1,0 +1,64 @@
+================================================================
+Part I
+
+1. make a directory called first
+A: mkdir first
+
+2. change directory to the first folder
+A: cd ..
+
+3. create a file called person.txt
+A: touch person.txt
+
+4. change the name of person.txt to another.txt
+A: touch person.txt another.txt
+
+5. make a copy of the another.txt file and call it copy.txt
+A: cp another.txt copy.txt
+
+6. remove the copy.txt file
+A: rm copy
+
+7. make a copy of the first folder and call it second
+A: cp first second
+
+8. delete the second folder
+A: rm -rf second
+
+================================================================
+Part II
+
+1. What does the man command do? Type in man rm. How do you scroll and get out?
+A: man command prints a manual of command lines. Up and down key or mouse wheel and you exit pressin 'q'
+
+2. Look at the man page for ls. What does the -l flag do? What does the -a flag do?
+A: '-a' displays hidden files (hidden files start with a '.') -l displays date and time input
+
+3. How do you jump between words in the terminal?
+A: Option/alt + left/right keys
+
+4. How do you get to the end of a line in terminal?
+A: ctrl + e
+
+5. How do you move your cursor to the beginning in terminal?
+A: ctrl + a
+
+6. How do you delete a word (without pressing backspace multiple times) in terminal?
+A: ctrl + w
+
+7. What is the difference between a terminal and shell?
+
+8. What is an absolute path?
+A: The absolute path is always fixed and starts at out home directory and can be use anywhere you are in terminal
+
+9. What is an relative path?
+A: A relative path is based on where where a user is at the moment
+
+10. What is a flag? Give three examples of flags you have used.
+A: Flags allows to modify results of terminal commands
+
+11. What do the r and f flags do with the rm command?
+A: r - Attempt to remove the file hierarchy rooted in each file argument. f - Attempt to remove the files without prompting for confirmation, 
+regardless of the file's permissions.
+
+================================================================
